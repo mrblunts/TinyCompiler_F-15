@@ -1,0 +1,5 @@
+PROGRAM Test2
+INTEGER x
+x = 2 + 3 - (7 - 4) + 8
+PRINT, "The value of x is: ", x
+END PROGRAM Test2

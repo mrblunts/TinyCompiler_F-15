@@ -1,0 +1,12 @@
+!Test case for sum of first n natural numbers
+PROGRAM 
+INTEGER n
+INTEGER i
+INTEGER sum
+READ *, n
+sum = 0
+DO i = 1, n
+    sum = sum + i
+END DO
+PRINT *, "Sum is", sum
+END PROGRAM sum

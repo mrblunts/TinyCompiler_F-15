@@ -1,0 +1,11 @@
+PROGRAM Test5
+INTEGER n, sum, i
+READ, n
+sum = 0
+i = 1
+WHILE i <= n DO
+    sum = sum + i
+    i = i + 1
+ENDWHILE
+PRINT, "The sum of first ", n, " natural numbers is: ", sum
+END PROGRAM Test5

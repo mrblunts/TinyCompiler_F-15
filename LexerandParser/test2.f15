@@ -1,0 +1,11 @@
+PROGRAM mathoperations
+INTEGER a
+INTEGER b
+a = 5
+b = 10
+IF a .GT. b THEN
+    PRINT *, "a is greater"
+ELSE
+    PRINT *, "b is greater"
+END IF
+END PROGRAM mathoperations

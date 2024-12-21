@@ -1,0 +1,15 @@
+PROGRAM
+INTEGER
+READ
+PRINT
+IF
+THEN
+ELSE
+DO
+END
+123
+abc
+"string"
+.GT.
+.LT.
+.EQ.

@@ -1,0 +1,32 @@
+PROGRAM Test4
+INTEGER a, b, c, d, max, min
+READ, a
+READ, b
+READ, c
+READ, d
+
+max = a
+IF b > max THEN
+    max = b
+ENDIF
+IF c > max THEN
+    max = c
+ENDIF
+IF d > max THEN
+    max = d
+ENDIF
+
+min = a
+IF b < min THEN
+    min = b
+ENDIF
+IF c < min THEN
+    min = c
+ENDIF
+IF d < min THEN
+    min = d
+ENDIF
+
+PRINT, "Maximum: ", max
+PRINT, "Minimum: ", min
+END PROGRAM Test4

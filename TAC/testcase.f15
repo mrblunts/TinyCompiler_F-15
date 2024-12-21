@@ -1,0 +1,15 @@
+PROGRAM
+    INTEGER x
+    INTEGER y
+    INTEGER z
+
+    READ, x
+    READ, y
+
+    z = x + y
+    PRINT, "Sum is: ", z
+
+    DO i = 0, 10
+        PRINT, "Loop index: ", i
+    END DO
+END PROGRAM myProgram

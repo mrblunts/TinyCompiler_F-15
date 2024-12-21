@@ -1,0 +1,18 @@
+PROGRAM Test6
+INTEGER n, i, a, b, next
+READ, n
+a = 0
+b = 1
+PRINT, a
+IF n > 0 THEN
+    PRINT, b
+ENDIF
+i = 2
+WHILE i <= n DO
+    next = a + b
+    PRINT, next
+    a = b
+    b = next
+    i = i + 1
+ENDWHILE
+END PROGRAM Test6

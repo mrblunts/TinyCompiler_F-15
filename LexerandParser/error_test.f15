@@ -1,0 +1,6 @@
+PROGRAM looperror
+INTEGER i
+DO i = 1, 10
+    PRINT *, i
+! Missing END DO here
+END PROGRAM looperror

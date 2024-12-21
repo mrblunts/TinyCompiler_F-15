@@ -1,0 +1,7 @@
+PROGRAM Test1
+INTEGER x, y, sum
+READ, x
+READ, y
+sum = x + y
+PRINT, "The sum is: ", sum
+END PROGRAM Test1

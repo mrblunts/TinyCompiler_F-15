@@ -1,0 +1,17 @@
+PROGRAM Test3
+INTEGER a, b, abs_a, abs_b, sum
+READ, a
+READ, b
+IF a < 0 THEN
+    abs_a = -a
+ELSE
+    abs_a = a
+ENDIF
+IF b < 0 THEN
+    abs_b = -b
+ELSE
+    abs_b = b
+ENDIF
+sum = abs_a + abs_b
+PRINT, "The sum of absolute values is: ", sum
+END PROGRAM Test3
